@@ -1,6 +1,10 @@
 # go-scrypt-kdf
 
-This package is a port of the `scrypt-kdf` nodejs library to Go.
+[![Build Status](https://ci.neveris.one/api/badges/gryffyn/go-scrypt-kdf/status.svg)](https://ci.neveris.one/gryffyn/go-scrypt-kdf)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gryffyn/go-scrypt-kdf)](https://goreportcard.com/report/github.com/gryffyn/go-scrypt-kdf)
+[![Go Reference](https://pkg.go.dev/badge/github.com/gryffyn/go-scrypt-kdf/.svg)](https://pkg.go.dev/github.com/gryffyn/go-scrypt-kdf/)
+
+This package is a port of the `scrypt-kdf` [nodejs library](https://github.com/chrisveness/scrypt-kdf) to Go.
 
 ## Usage
 
@@ -40,6 +44,6 @@ offset	length
 
 ## License
 
-Original repo [license](https://github.com/chrisveness/scrypt-kdf).
+Original repo license can be found [here](https://github.com/chrisveness/scrypt-kdf/blob/master/LICENSE).
 
 Licensed MIT, see `LICENSE` for details.
