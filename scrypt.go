@@ -61,7 +61,7 @@ func skdfWrite(pw []byte, salt []byte, LogN uint8, r uint32, p uint32) ([]byte, 
 	buf.Write([]byte{LogN}) // LogN is som
 
 	rByte := make([]byte, 4)
-	binary.LittleEndian.PutUint32(rByte, r)
+	binary.BigEndian.PutUint32(rByte, r)
 	buf.Write(rByte) // converts the uint32 to []byte and writes it
 
 	pByte := make([]byte, 4)
